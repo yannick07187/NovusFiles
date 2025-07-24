@@ -143,12 +143,12 @@ backend:
     priority: "high"
     needs_retesting: false
     status_history:
+      - working: true
+        agent: "testing"
+        comment: "File listing, deletion, and info endpoints all tested and working correctly"
       - working: "NA"
         agent: "main"
         comment: "Implemented file listing, deletion, and info endpoints with MongoDB integration"
-      - working: true
-        agent: "testing"
-        comment: "✅ PASSED - All management endpoints working: file listing with metadata, file info retrieval, file deletion (both from DB and filesystem), proper error handling for non-existent files. API root endpoint responding correctly."
 
   - task: "Secure File Storage"
     implemented: true
