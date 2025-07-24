@@ -358,7 +358,7 @@ const FileUpload = () => {
                           className="bg-green-600/20 hover:bg-green-600/40 text-green-300 hover:text-green-200 font-medium py-2 px-4 rounded-lg transition-all duration-300 border border-green-500/30 hover:border-green-400 backdrop-blur-sm"
                         >
                           ⬇️ Download
-                        </button>
+                        </a>
                         <button
                           onClick={() => deleteFile(file.id)}
                           className="bg-red-600/20 hover:bg-red-600/40 text-red-300 hover:text-red-200 font-medium py-2 px-4 rounded-lg transition-all duration-300 border border-red-500/30 hover:border-red-400 backdrop-blur-sm"
