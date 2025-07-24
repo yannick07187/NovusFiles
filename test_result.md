@@ -158,12 +158,12 @@ backend:
     priority: "high"
     needs_retesting: false
     status_history:
+      - working: true
+        agent: "testing"
+        comment: "UUID file storage, secure tokens, file integrity verification all working perfectly"
       - working: "NA"
         agent: "main"
         comment: "Files stored with UUID filenames, secure tokens for downloads, hash verification for integrity"
-      - working: true
-        agent: "testing"
-        comment: "✅ PASSED - Verified UUID-based file IDs, secure URL-safe download tokens (32+ chars), file size integrity, proper file storage in /app/backend/uploads/, and token-based access control. All security features working correctly."
 
 frontend:
   - task: "File Upload UI"
