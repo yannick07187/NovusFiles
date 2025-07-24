@@ -209,13 +209,9 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus:
-    - "File Upload API"
-    - "File Download API" 
-    - "File Management API"
-    - "Secure File Storage"
+  current_focus: []
   stuck_tasks: []
-  test_all: true
+  test_all: false
   test_priority: "high_first"
 
 agent_communication:
