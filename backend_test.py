@@ -156,7 +156,9 @@ class FileShareTester:
             if response.status_code == 200:
                 # Check headers
                 headers = response.headers
-                if 'content-disposition' in headers.lower() or any('attachment' in h.lower() for h in headers.values()):
+                header_keys_lower = [k.lower() for k in headers.keys()]
+                header_values_lower = [v.lower() for v in headers.values()]
+                if 'content-disposition' in header_keys_lower or any('attachment' in v for v in header_values_lower):
                     self.log_result("download_api", "File Download with Headers", True)
                 else:
                     self.log_result("download_api", "File Download with Headers", False, "Missing proper download headers")
