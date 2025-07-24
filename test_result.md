@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Build me a website like mediafire where i can actually upload files and they get stored and i can send other people a link where they can then download those files"
+user_problem_statement: "Build me a website like mediafire where i can actually upload files and they get stored and i can send other people a link where they can then download those files - Updated to NovusFiles with black/purple theme"
 
 backend:
   - task: "File Upload API"
