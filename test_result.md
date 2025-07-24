@@ -128,12 +128,12 @@ backend:
     priority: "high"
     needs_retesting: false
     status_history:
+      - working: true
+        agent: "testing"
+        comment: "Secure token-based downloads with proper HTTP headers verified and working"
       - working: "NA"
         agent: "main"
         comment: "Implemented secure download endpoint using unique tokens, proper file serving with headers"
-      - working: true
-        agent: "testing"
-        comment: "✅ PASSED - Verified secure token-based downloads with proper HTTP headers (Content-Disposition, attachment), content integrity, and error handling for invalid tokens. Download count tracking working correctly."
 
   - task: "File Management API"
     implemented: true
