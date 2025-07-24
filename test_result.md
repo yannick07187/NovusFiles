@@ -176,7 +176,7 @@ frontend:
     status_history:
       - working: "NA"
         agent: "main"
-        comment: "Implemented drag-drop file upload with progress tracking, multiple file selection support"
+        comment: "Updated to NovusFiles branding with dark theme - drag-drop upload with progress tracking ready for testing"
 
   - task: "File Management Dashboard"
     implemented: true
